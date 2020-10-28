@@ -1,0 +1,141 @@
+.royaltycalculator .bottombox label {padding-top: 20px; padding-left: 26px; }
+.royaltycalculator .bottombox label{padding: 5px 0 0 19px;}
+.royaltycalculator .bottombox .row-class.toppadding label{padding-top: 35px;}
+.royaltycalculator .bottombox .row-class.toppadding .delimiter{padding-top: 28px; display: inline-block;}
+.royaltycalculator .formcontainer .bottombox .result{padding-left: 15px;}
+.royaltycalculator .formcontainer .bottombox > .row{/*padding-top: 25px;padding-bottom: 25px;*/padding: 16px 0 25px;}
+.royaltycalculator .formcontainer .bottombox p{margin-top: 17px; font-size: 14px; letter-spacing: 0.025em; margin-bottom: 0; line-height: 17px; padding: 0 25px; font-weight: 400;}
+
+
+.royaltycalculator .formcontainer .centerbox input,.royaltycalculator .formcontainer .centerbox select{min-width: 272px;padding: 4px 10px;border: 1px solid #e8e8e8;border-radius: 5px; margin: 8px 0;box-shadow: none;}
+.royaltycalculator .formcontainer .bottombox .paddingtop{padding-top: 10px;}
+.royaltycalculator .formcontainer .centerbox select {padding: 11px 10px; border: 1px solid #e8e8e8; border-radius: 5px;    height: 40px; }
+.royaltycalculator .formcontainer .centerbox .paddingtop{padding-top: 12px !important;}
+.royaltycalculator .formcontainer .centerbox p{font-size: 14px; line-height: 17px; font-weight: 400; letter-spacing: 0.025em; padding: 15px;}
+.royaltycalculator .formcontainer .bottombox .heading{font-size: 14px; letter-spacing: 0.025em; font-weight: 400; line-height: 20px;font-weight: bold;}
+.royaltycalculator .centerbox label,.royaltycalculator .bottombox label{/*padding: 0 0 0 15px;padding: 0 0 0 24px;*/padding: 10px 0 0 19px;font-size: 14px;letter-spacing: 0.025em;font-weight: 400;line-height: 20px;}
+.royaltycalculator .centerbox label,.royaltycalculator .bottombox label{padding: 10px 0 0 25px; font-size: 14px; letter-spacing: 0.025em; font-weight: 400; line-height: 16px; display: inline-block; font-family: roboto;min-width: 165px;}
+.royaltycalculator .faq-block{margin-top: 80px;}
+.royaltycalculator .faq-block ul{margin-bottom: 0;padding: 0 30px 50px;}
+.royaltycalculator .faq-block li{padding: 20px 0 5px;margin: 0;}
+.royaltycalculator .faq-block li strong{font-size: 18px;font-weight: bold;}
+.royaltycalculator .faq-block li p{margin-left: 23px;font-size: 14px;font-weight: 400;margin-bottom: 0;line-height: 27px;}
+.royaltycalculator .faq-block h2{padding: 76px 0 50px;text-align: center;}
+.royaltycalculator .royaltytitle{margin-bottom: 50px;}
+.royaltycalculator .royaltytitle h1{font-size: 50px;letter-spacing: -0.01em;font-size: 50px;margin-left: -2px;margin-bottom: 0;}
+.royaltycalculator .royaltytitle p{font-weight: 300;margin: 4px 0 10px 2px;font-size: 20px;letter-spacing: 0.025em;}
+.royaltycalculator .royaltytitle span{margin-top: 15px; font-weight: 300; font-family: roboto; color: #bebebe; font-size: 14px; letter-spacing: 0.025em;}
+.royaltycalculator .royaltytitle .button_container{padding: 0;}
+.royaltycalculator .royaltytitle .activeDIY:before{display: inline-block; content: "Xpress Publishing"; vertical-align: middle; font-size: 16px; line-height: 26px; color: #333; font-family: roboto; font-weight: bold; text-transform: uppercase; opacity: 1; letter-spacing: 0.025em;}
+.enterdetails > div,.authorroyalty > div{padding: 0px 13px; margin-right: 8px;}
+.authorroyalty > div{margin-left: 13px;}
+
+.enterdetails .alert {position: absolute; z-index: 9999; width: 100%; }
+.enterdetails .alert:before{content: ""; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #f58b8b; position: absolute; top: -10px; left: 50%; margin-left: -5px;}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.enterdetails .alert {
+    position: absolute;
+    z-index: 9999;
+    min-width: 273px;
+    padding: 5px 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    margin: 8px 0;
+    right: 10px;
+    width:auto;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.royaltycalculator .formcontainer .centerbox input, .royaltycalculator .formcontainer .centerbox select{width: 77%;min-width: 0}
+	.royaltycalculator .centerbox label, .royaltycalculator .bottombox label{min-width: 0;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	.col-md-nopadding{padding: 0 !important;}
+	.col-md-padding-7{padding: 0 7px !important;}
+	.authorroyalty>div{margin-left: 0}
+	.royaltycalculator .centerbox label, .royaltycalculator .bottombox label{min-width: 0; font-size: 12px;}
+	.royaltycalculator .formcontainer .centerbox input, .royaltycalculator .formcontainer .centerbox select{padding: 10px 0 0 0px;min-width: 0}
+	.royaltycalculator .formcontainer .centerbox input, .royaltycalculator .formcontainer .centerbox select{width: 84%; padding: 10px 9px; line-height: 20px;}
+	.royaltycalculator .delimiter{padding: 0 5px;}
+	.royaltycalculator .formcontainer .centerbox{padding: 0 15px;}
+	.royaltycalculator .formcontainer .button{padding: 30px 15px;}
+	.royaltycalculator .formcontainer .bottombox{padding: 0 15px;}
+	.royaltycalculator .formcontainer .centerbox p{font-size: 12px;}	
+	.enterdetails .alert{padding: 10px; font-size: 12px; letter-spacing: 0em;line-height: 20px;min-width: 190px !important;}
+	.royaltycalculator .faq-block h2 {
+    padding: 50px 0 25px;
+    text-align: center;}
+}
+@media screen and (min-width: 577px) and (max-width: 767px)
+{
+	.col-sm-nopadding{padding: 0 !Important;}
+	.royaltycalculator .formcontainer .centerbox input, .royaltycalculator .formcontainer .centerbox select{min-width: 89%;}
+	.royaltycalculator .delimiter{padding: 0 10px;}
+	.authorroyalty{margin-top: 37px;}
+	.authorroyalty>div{margin-left: 0;}
+	.royaltycalculator .royaltytitle{margin-top: 55px;margin-bottom: 42px;}
+	.royaltycalculator .royaltytitle h1{font-size: 38px;}
+	.royaltycalculator .royaltytitle p{font-size: 14px;}
+	.royaltycalculator .royaltytitle span{font-size: 12px;}
+	.royaltycalculator div#switch_btns::before{font-size: 12px;}
+	.royaltycalculator div#switch_btns::after{font-size: 12px;}
+	.royaltycalculator h3{font-size: 14px;padding:10px;}
+	.royaltycalculator .centerbox label, .royaltycalculator .bottombox label{font-size: 12px;min-width: 0;}
+	.royaltycalculator .formcontainer .bottombox p{font-size: 12px;}
+	.royaltycalculator .faq-block{margin-top: 70px;}
+	.royaltycalculator .faq-block h2{padding-top: 50px;font-size: 26px;}
+	.royaltycalculator .faq-block li strong{position: relative;display: inline-block;margin-left: 23px;}
+	.royaltycalculator .faq-block li strong:before{position: absolute; top: 11px; left: -11px;}
+	.alert-danger {
+    line-height: 20px;
+    font-size: 12px;
+}
+.royaltycalculator .formcontainer .centerbox p {
+    padding: 15px 0;
+}
+}
+@media screen and (max-width: 576px) and (min-width: 320px)
+{
+	.col-xs-nopadding{padding: 0 !Important;}
+	.authorroyalty{margin-top: 37px;}
+	.authorroyalty>div{margin-left: 0;} 
+	.royaltycalculator .royaltytitle{margin-top: 55px;margin-bottom: 42px;}
+	.royaltycalculator .royaltytitle h1{font-size: 38px;padding: 0 20px;text-align: center;}
+	.royaltycalculator .royaltytitle p{font-size: 14px;text-align: center;padding: 0 20px;}
+	.royaltycalculator .royaltytitle span{font-size: 12px;}
+	.royaltycalculator div#switch_btns::before{font-size: 12px;}
+	.royaltycalculator div#switch_btns::after{font-size: 12px;}
+	.royaltycalculator h3{font-size: 14px;padding:10px;}
+	.royaltycalculator .centerbox label, .royaltycalculator .bottombox label{font-size: 12px;min-width: 0;}
+	.royaltycalculator .formcontainer .bottombox p{font-size: 12px;padding: 0 5px;}
+	.royaltycalculator .faq-block{margin-top: 50px;}
+	.royaltycalculator .faq-block h2{padding-top: 30px;font-size: 26px;padding-bottom:15px;}
+	.royaltycalculator .faq-block li strong{position: relative;display: inline-block;margin-left: 23px;}
+	.royaltycalculator .faq-block li strong:before{position: absolute; top: 11px; left: -11px;}
+	.royaltycalculator .formcontainer .centerbox input, .royaltycalculator .formcontainer .centerbox select,.enterdetails .alert{min-width: 90%;width:90%;}
+	.royaltycalculator .centerbox label, .royaltycalculator .bottombox label {
+    padding: 10px 0 0 5px;}
+    .royaltycalculator .delimiter {padding: 0 2px 0px 2px;}
+	.enterdetails > div, .authorroyalty > div{padding:0;}
+	.alert-danger {
+    line-height: 20px;
+    font-size: 12px;
+}.royaltycalculator .formcontainer .centerbox p {
+      margin-left: -10px;padding: 0 5px;
+}
+.royaltycalculator .faq-block ul {
+    margin-bottom: 0;
+    padding: 0 5px 50px;
+}
+.royaltycalculator .royaltytitle span {
+    margin-top: 0;}
+.royaltycalculator .formcontainer .centerbox p{font-size: 12px;}	
+.bottombox {min-height:200px !important;
+}
+	
+}

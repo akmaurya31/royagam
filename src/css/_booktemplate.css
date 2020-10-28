@@ -1,0 +1,152 @@
+/*Book Template  -  Arul*/
+
+.template-book p{
+    font-family: Roboto, sans-serif;
+    font-size:14px;
+}
+b, strong {
+    font-weight: bold;
+}
+h2{
+    font-family: "roboto";
+    font-size: 50px;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.booksizecover{padding:0;margin:0 auto;}
+#booksize_wr h1{font-size:50px;text-align: center;padding:0px 0 50px;margin: 0;}
+#booksize_wr .booksizeovers{font-size: 0;}
+#booksize_wr h4 {padding-top: 0;font-weight: bold;letter-spacing: 0.05em;    padding-bottom: 20px;}
+#booksize_wr .overallcontainer,#booksize_wr .overallcontainer:hover{max-width: 100%;vertical-align: top;box-shadow: 0px 0px 10px 1px #dedede !important;padding: 30px 0;}
+#booksize_wr .overallcontainer p{line-height:24px;text-align: left;min-height: 96px;
+    padding: 0 50px 0 55px;
+    margin: 0;}
+#booksize_wr .overallcontainer .bookdetails p{padding-top: 10px;}
+#booksize_wr .overallcontainer .thumbnail{margin-bottom: 24px;margin-left: 0;}
+#booksize_wr .overallcontainer .thumbnail img{border: 1px solid #dedede;}
+#booksize_wr{padding-bottom: 125px;}
+
+
+.nopaddingright{padding-right: 0 !important;}
+.fl-content,.nopadding {
+    padding: 0 !important;
+}
+
+.template-book .nofloat {
+    float: none !important;
+    margin: 0px auto !important;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+.wrapper .fl-page-content {
+    background: #f7f8f9;
+}
+#bookformat .bookformatoverall {
+    font-size: 0;
+    margin: 0 auto;
+}
+
+  #bookformat .h2-heading ,
+  #bookinterior h2.fl-heading,
+  #bookcover h2.fl-heading,
+  #ebook h2.fl-heading{
+    font-family: "roboto";
+    font-size: 50px;
+    margin: 0 auto;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 0 50px;
+}
+#bookformat .overallcontainer {
+    background: url(../images/listbg.png) bottom no-repeat;
+    border: 0px !important;
+    padding: 0;    
+    
+    margin-bottom: 40px;
+}
+#paperback{
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+
+.template-book.row{margin-right:0;margin-left:0;}
+
+.fl-page {
+    position: relative;
+}
+
+.template-book .overallcontainer .thumbnail{margin: 0;padding: 0;border: 0px;}
+.template-book .overallcontainer .thumbnail img {
+    margin: 0 auto;
+    display: block;
+}
+
+.template-book .overallcontainer .bookdetails{padding: 0 13px 0 4px;/*max-width: 200px;**/text-align: center;}
+.template-book .overallcontainer .bookdetails h4{text-align: center;font-size: 14px;font-weight: normal;color: #666;letter-spacing: 0.025em;}
+.template-book .overallcontainer .bookdetails h4 span{font-size: 21px;font-weight: 600;}
+.template-book .overallcontainer .bookdetails h6{font-size: 14px;color: #666;width: 100%;border-bottom: 1px solid #dbdbdb;margin: 0;padding-bottom: 10px;}
+.template-book .overallcontainer .col-lg-12 p{text-align: left;min-height: 80px;margin-top: 15px;margin-bottom: 30px;}
+.template-book .overallcontainer .bookdetails p{text-align: center;color: #333;}
+.template-book .overallcontainer .col-lg-12 p.empty{min-height: 0;}
+.template-book .overallcontainer .col-lg-12 ul{list-style-type: none;}
+.template-book .overallcontainer{max-width: 305px;margin: 0 auto;box-shadow: 0px 0px 0px 0px #dedede;padding: 29px 0 24px;margin-bottom: 40px;border: 1px solid #dedede !important;background: #fff;}
+.template-book .bookformatoverall .overallcontainer h4{text-align: center;margin: 0;position: relative;padding: 15px 0;font-size:17px;font-weight: 500;}
+#bookinterior .text-center{padding-bottom: 30px;margin:0 auto;}
+.template-book .overallcontainer h4 span.downarrow {/**border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 10px solid #cdcdcd;border-bottom: 10px solid transparent;display: inline-block;position: absolute;left: 50%;margin-left: -10px;bottom: -20px;z-index: 9999;*/}
+
+
+
+
+#bookinterior h3{font-size:20px;font-weight:500;}
+#bookinterior .bookinterioroverall{font-size: 0;text-align: center;}
+#bookinterior .col-lg-4,#bookcover .col-lg-4{margin-right: 30px !important;max-width: 270px}
+#bookinterior .overallcontainer{padding: 0px 28px 0;}
+#bookinterior .overallcontainer .thumbnail{margin-left: 0px;margin-bottom: 30px;}
+#bookinterior .overallcontainer .col-lg-12 h4,
+#ebook .overallcontainer h4,
+#bookcover .overallcontainer h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+#bookinterior .section2 .overallcontainer .col-lg-12 p{
+  min-height:115px;
+  }
+
+#bookcover {background: #fff;}
+#bookcover .fl-heading{padding-top: 40px;}
+#bookcover .laminationoverall{text-align: center;font-size: 0;margin: 0 auto;}
+#bookcover .overallcontainer{padding: 0;}
+#bookcover .overallcontainer .thumbnail{margin-left: 0px;}
+#bookcover .overallcontainer .thumbnail img{margin: 0 auto;}
+#bookcover .overallcontainer p{text-align: left;margin-top: 30px;padding:0 15px;}
+
+
+#ebook .ecoveroverall{font-size: 0;margin: 0 auto;}
+#ebook .fl-heading{padding-top: 40px;}
+#ebook .overallcontainer{max-width: 356px;padding: 0;margin: 0 20px;}
+#ebook .overallcontainer .thumbnail{max-width: 100%;margin: 0;}
+#ebook .overallcontainer .thumbnail img{margin: 0 auto;}
+#ebook .overallcontainer .col-lg-12 p{min-height: 0;text-align: left;padding:0 15px;}
+#ebook .overallcontainer .col-lg-12 .available{text-align: center;background: #f9f9f9;}
+#ebook .overallcontainer .col-lg-12 .available span.availabletext{font-size: 14px;font-weight: bold;color: #333;letter-spacing: 0.025em;padding: 20px 0;display: inline-block;}
+#ebook .overallcontainer .col-lg-12 .available ul{text-align: center;margin-bottom: 0;margin-top: 0;}
+#ebook .overallcontainer .col-lg-12 .available ul li{display: inline-block;vertical-align: middle;}
+
+#ebook .available .empty{height: 26px;width: 100px;display: inline-block;}
+#bookinterior .overallcontainer .thumbnail img,
+#bookcover .overallcontainer .thumbnail img{border: 1px solid #dedede}
+.sprite2{background: url("../images/available.png");display: inline-block;margin:0 10px;}
+.ibooks{width: 65px;height: 25px;background-position: -107px -1px;}
+.firebook{width: 80px;height: 20px;background-position: -2px -2px;}
+.kindle{width: 58px;height: 20px;background-position: -2px -80px;}
+.playstore{width: 94px;height: 18px;background-position: 0px -42px;}
+.kobo{width: 54px;height: 26px;background-position: -73px -77px;}
+.rockstand{width: 124px;height: 26px;background-position: 0px -117px;}
+
+/*End Book Template  -  Arul*/

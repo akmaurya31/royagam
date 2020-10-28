@@ -1,0 +1,324 @@
+*:focus, *:hover, *:active, *:visited{outline: none !important;box-shadow: 0px 0px 0px 0px transparent !important;}
+body {
+  font: 100% "roboto", sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 31px; }
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #F05F40; }
+
+hr.light {
+  border-color: #fff; }
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: "roboto", sans-serif;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 0;
+  padding: 0; }
+
+
+
+#mainNav .line1 {
+  background: #f3f3f3; }
+
+.active {
+  color: #ff5a5f; }
+
+  .page-header-style {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 55px;
+  }
+
+  .page-header-para-style {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px; }
+
+.greybg{background: $grey-bg;}
+h2{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h4{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+h5{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+p{
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Heebo",sans-serif;
+  line-height: 26px;
+}
+.width-1200{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.grey-bg{
+  background-color: #f7f8f9;
+}
+.nopadding{
+  padding: 0;
+}
+
+.sprite{
+  background: url(../images/s.png);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 1;
+}
+.sprite.hovereff{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(../images/s.png);
+/*  transform: rotateY(-180deg);*/
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.sprite.facebook{
+  background-position: -1px 0px;
+}
+.gplus.sprite{
+  background-position: -66px 0px;
+}
+.twitter.sprite{
+  background-position: -131px 0px;
+}
+span.facebook.sprite.hovereff{
+  background-position: 0px -52px;
+}
+span.gplus.sprite.hovereff{
+  background-position: -66px -52px;
+}
+span.twitter.sprite.hovereff{
+  background-position: -130px -52px;
+}
+.sprite:hover.hovereff{
+  opacity: 1;
+/*  transform: rotateY(0deg);
+  transition: all 1s;*/
+}
+.socialIconsInner{
+  margin-top: 10px;
+}
+.socialIconsInner a{
+  margin-right: 15px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.firstChild{
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+.lastChild{
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #b0b0b0 !important;
+}
+
+::-moz-placeholder, textarea::-moz-placeholder {
+  color: #b0b0b0 !important;
+}
+
+:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #b0b0b0 !important;
+}
+
+::placeholder, textarea::placeholder {
+  color: #b0b0b0 !important;
+}
+/**********Sai Deepak Design*************/
+.margin-center{margin: 0 auto;}
+.pinkbg{background: #ff5a5f;}
+.bannerOuter.whitebg{background: transparent;}
+.bannerOuter.whitebg .banner{padding: 45px 0px 45px;}
+.bannerOuter.whitebg .banner:after{background: transparent;}
+.bannerOuter.two-column{}
+.bannerOuter.two-column .right-column{}
+.bannerOuter.two-column .right-column img{max-width: 100%;}
+h2.h2-title{padding-bottom: 0;font-size: 50px;}
+h3.h3-title{padding-top: 0; padding-bottom: 0;font-size: 20px;font-weight: 300;padding-bottom: 50px}
+.pinkbg h2{color: #fafafa}
+.pinkbg h3{color: #fafafa}
+.pinkbg h4{color: #fafafa}
+.pinkbg p{color: #fafafa}
+.pinkbg span{color: #fafafa;}
+.pinkbg li{color: #fafafa;}
+
+/* Bug fix Deepan */
+
+.bannerOuter.whitebg .banner h1{font-size: 52px;font-weight: 500;}
+.bannerOuter.whitebg .banner p{font-weight: 300; margin-top: 16px;}
+
+/* Bug fix end */
+
+/* Bug fix Arul */
+body{
+    padding-right: 0 !important;
+}
+body#modal-open {
+    overflow: auto;
+    padding-right: 0 !important;
+}
+body.modal-open {
+    overflow: auto;
+    padding-right: 0 !important;
+}
+.fade.show{overflow-y:hidden;text-align:center;}
+.fa {
+    display: inline-block;
+    /*font: normal normal normal 14px/1 FontAwesome;*/}
+
+.feedback_sprite{
+    background: url(../images/feedback_sprite.png) transparent;
+    display: inline-block;
+}
+
+button:hover:after {
+    background: none !important;
+}
+.review_block .bg-box {
+    box-shadow: 0px 5px 15px #dedede !important;}
+    .mediaAboutBook_wrapper .bx-wrapper{margin:0 auto;}
+
+.plan_section span.price:after {
+    position: absolute;
+    color: #ff5a5f;
+    font-size: 10px;
+    letter-spacing: 0.075em;
+    content: "+GST";
+    text-align: right;
+    line-height: 13px;
+    padding-bottom: 5px;
+    top: 21px;
+    left: 85px;
+}
+.plan_section span.free-price:after {
+    content: "";
+}
+.publishing_plan .plan_section .price{position:relative;}
+.publish_slider .slick-next,.publish_slider .slick-prev{cursor: pointer;}
+
+ /* Bug fix end */
+
+
+.section_padding{ padding: 50px 0px ;}
+.reset_section_padding_bottom{padding-bottom:0px !important;}
+.modal-backdrop.show{z-index: 9999;}
+.modal{z-index: 99999;}
+
+.bannerOuter.whitebg .banner p a{text-decoration: underline; }
+
+
+@media screen and (min-width: 1200px){
+    .countriesCount {padding: 30px 0 0px; }
+    .countriesCount .row{margin-bottom: 0;}
+    .countriesCount .li-element{margin-bottom: 0px;}
+}
+@media screen and (min-width: 992px){
+  .bannerOuter.whitebg .banner h1{width:80%;}
+  .bannerOuter.whitebg .banner p{font-size: 18px;width: 100%;margin-right:10px;}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .bannerOuter.whitebg .banner h1{width: 80%;}
+    .bannerOuter.whitebg .banner p{line-height: 17px;font-size: 12px;}
+    .bannerOuter.whitebg .banner{padding: 25px 0;}
+    .bannerOuter.whitebg .banner iframe{max-width: 100%;}
+}
+@media screen and (max-width: 1200px)
+{
+  .c-width{display: inline-block;}
+  .bannerOuter .banner h1{font-size: 37px;}
+  .bannerOuter .banner p{font-size: 14px; line-height: 18px; letter-spacing: 0.01em; margin-bottom: 18px; margin-top: 20px;font-weight: 400;}
+  .bannerOuter .btn-primary{padding: 7px 33px; font-size: 14px;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+  h2.h2-title{padding-top: 15px;font-size: 34px;letter-spacing: -0.01em;}
+  h3.h3-title{font-size: 16px;letter-spacing: 0.025em;margin-top: 10px;padding-bottom: 25px;margin-bottom: 0;}
+  .bannerOuter.whitebg .banner .row{margin: 0 -10px;}
+  .bannerOuter.whitebg .banner .right-column .row{display: inline-block;margin: 0 -15px;}
+  .bannerOuter.whitebg .banner .right-column .row iframe{max-width: 100%; margin: 0 0 0 auto;}
+  .bannerOuter.whitebg .banner{padding: 25px 0;}
+  .bannerOuter.whitebg .banner .container{padding: 0;}
+  h2{font-size:34px !important;}
+  p{font-size:16px;}
+  h1{font-size:40px !important;}
+}
+@media screen and (max-width: 767px)
+{
+  /* show reverse by horizontal row */
+  .row-reverse { display: flex; flex-direction: row-reverse; }
+
+  /* show reverse by vertical column */
+  .column-reverse { display: flex; flex-direction: column-reverse; }
+  h2.h2-title{padding-top: 38px; padding-bottom: 0; font-size: 26px;letter-spacing: -0.01em;}
+  h3.h3-title{padding-bottom: 15px;font-size: 14px;letter-spacing: 0.025em;}
+  .list-design h3{line-height: 17px;}
+  .bannerOuter.whitebg .banner h1{/*margin: 40px 0 20px;*/margin: 0px 0 20px;}
+  .bannerOuter.whitebg .banner p{text-align: center;font-size: 14px; line-height: 19px; margin-bottom: 20px;}
+  .bannerOuter.whitebg .banner .btn{margin: 0 auto;padding: 9px 43px; font-size: 14px;}
+  .bannerOuter.whitebg .banner .right-column .row {display: inline-block; margin: 0px auto; padding: 0; width: 100%; }
+  .bannerOuter.whitebg .banner .right-column .row iframe{width: 100%;}
+  .c-width {display: block; text-align: center; padding: 30px; }
+  .bannerOuter.whitebg .banner{padding: 35px 0;}
+  .notion_advantage .list-design h3 {line-height: 17px;width: 100%;}
+  .notion_advantage .advantage-li {padding-bottom: 20px;}
+  .notion_advantage {padding-bottom: 0 !important;}
+  h2{font-size:26px !important;}
+  p{font-size:12px;}
+  h1{font-size:34px !important;}
+  .bottomshade {
+    position: relative;
+    padding-bottom: 30px !important;
+}
+
+}
+@media screen and (max-width: 579px){
+    .c-width{display: block;text-align: center;padding: 30px;padding-top:10px;}
+    .bannerOuter.whitebg .banner .right-column .row {display: inline-block; margin: 0px auto; padding: 0; width: 100%;margin-top: 30px; }
+}
+
+@media screen and (max-width: 480px){
+   .bannerOuter.whitebg .banner .right-column .row iframe {
+    max-height: 200px;}
+}
+
+
+/**********Sai Deepak Design End*************/
